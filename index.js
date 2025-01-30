@@ -16,7 +16,7 @@ run();
 
 
 
-app.get('/api' , userRouter )
+app.use('/api' , userRouter )
 
 
 
